@@ -8,11 +8,21 @@ let customers = '1'
 let currency = null
 let shipping = null
 
-if (location = RSA) { shipping === 400 && currency === 'R' }
+if (location = 'RSA') { 
+	shipping === 400
+	currency === 'R' }
 
-if location = NAM
-shipping = 600 
-else shipping = 800
+if (location = 'NAM') {
+	shipping = 600
+	currency = '$' }
+
+if 	(location = 'NK'){
+	 console.log(BANNED_WARNIN)
+
+}else{ 
+	currency = '$'
+	shipping = 800
+}
 
 shoes = 300 * 1
 toys - 100 * 5
