@@ -24,14 +24,12 @@ if 	(location = 'NK'){
 	shipping = 800
 }
 
-shoes = 300 * 1
-toys - 100 * 5
-shirts = 150 * 'NONE_SELECTED'
-batteries 35 * 2
-pens = 5 * 'NONE_SELECTED' 
-
-
-currency = $
+// Shopping List
+let shoes = 300 * 1
+let toys = 100 * 5
+let shirts = 150 * 2
+let batteries = 35 * 2
+let pens = 5 * 20 
 
 if (shoes + batteries + pens + shirts > 1000 &&  ) {
 	if (location = NAM && customers < 2) {
