@@ -8,15 +8,15 @@ let customers = '1'
 let currency = null
 let shipping = null
 
-if (location = 'RSA') { 
+if (location === 'RSA') { 
 	shipping === 400
 	currency === 'R' }
 
-if (location = 'NAM') {
+if (location === 'NAM') {
 	shipping = 600
 	currency = '$' }
 
-if 	(location = 'NK'){
+if 	(location === 'NK'){
 	 console.log(BANNED_WARNIN)
 
 }else{ 
@@ -37,15 +37,15 @@ let total = shoes + toys + shirts + batteries + pens
 console.log('price', currency, total + shipping)
 
 
-if (total > 1000 || total < 0){ {
-	if (location = 'NAM' || 'RSA' < 2) {
-			if (location = RSA)
-		    shipping = 0 || calcShipping
-		}
-	}
-}
+// if (total > 1000 || total < 0){ {
+// 	if (location = 'NAM' || 'RSA' < 2) {
+// 			if (location = RSA)
+// 		    shipping = 0 || calcShipping
+// 		}
+// 	}
+// }
 
-if (shipping = 0) && (customers !=== 1) { console.log(WARNING) }
+// if (shipping = 0) && (customers !=== 1) { console.log(WARNING) }
 
-	location = 'NK' ? console.log(WARNING) : 
+// 	location = 'NK' ? console.log(WARNING) : 
 
