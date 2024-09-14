@@ -34,7 +34,7 @@ let pens = 5 * 20
 //Calculating Users Cost Without Shipping
 
 let total = shoes + toys + shirts + batteries + pens
-console.log("Total cost without shipping is:" ,total)
+console.log("Total cost without shipping is: ",total)
 
 
 //Free shipping Validation Process
@@ -51,4 +51,5 @@ if (location === 'NAM'){
 
 if (shipping = 0 && customers != 1) { console.log(WARNING) }
 
-
+let Final_Price = total + shipping
+console.log("Price: ",currency,Final_Price)
