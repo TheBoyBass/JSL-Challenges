@@ -4,13 +4,13 @@ const NONE_SELECTED = '0'
 
 
 let location = 'RSA'
-let customers = '1'
+let customers = 1
 let currency = null
 let shipping = null
 
 if (location === 'RSA') { 
-	shipping === 400
-	currency === 'R' }
+	shipping = 400
+	currency = 'R' }
 
 if (location === 'NAM') {
 	shipping = 600
