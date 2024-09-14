@@ -34,18 +34,21 @@ let pens = 5 * 20
 //Calculating Users Cost Without Shipping
 
 let total = shoes + toys + shirts + batteries + pens
-console.log('price', currency, total + shipping)
+console.log("Total cost without shipping is:" ,total)
 
 
-// if (total > 1000 || total < 0){ {
-// 	if (location = 'NAM' || 'RSA' < 2) {
-// 			if (location = RSA)
-// 		    shipping = 0 || calcShipping
-// 		}
-// 	}
-// }
+//Free shipping Validation Process
+if (location === 'RSA'){
+	if (total >= 1000 && customers==1)
+		shipping = 0
+}
+if (location === 'NAM'){
+	if (total >= 60 && customers==1)
+        shipping = 0
+}else{
+	console.log(FREE_WARNING)
+}
 
-// if (shipping = 0) && (customers !=== 1) { console.log(WARNING) }
+if (shipping = 0 && customers != 1) { console.log(WARNING) }
 
-// 	location = 'NK' ? console.log(WARNING) : 
 
