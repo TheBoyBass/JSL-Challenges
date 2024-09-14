@@ -3,7 +3,7 @@ const BANNED_WARNIN = 'Unfortunately we do not ship to your country of residence
 const NONE_SELECTED = '0'
 
 
-let location = 'RSA'
+let location = 'USA'
 let customers = 1
 let currency = null
 let shipping = null
@@ -34,22 +34,22 @@ let pens = 5 * 20
 //Calculating Users Cost Without Shipping
 
 let total = shoes + toys + shirts + batteries + pens
-console.log("Total cost without shipping is: ",total)
 
 
 //Free shipping Validation Process
 if (location === 'RSA'){
 	if (total >= 1000 && customers==1)
 		shipping = 0
+		let Final_Price = total + shipping
+		console.log("Price: ",currency,Final_Price)
 }
 if (location === 'NAM'){
 	if (total >= 60 && customers==1)
         shipping = 0
+	    let Final_Price = total + shipping
+		console.log("Price: ",currency,Final_Price)
 }else{
 	console.log(FREE_WARNING)
 }
 
 if (shipping = 0 && customers != 1) { console.log(WARNING) }
-
-let Final_Price = total + shipping
-console.log("Price: ",currency,Final_Price)
