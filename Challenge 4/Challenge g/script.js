@@ -31,8 +31,14 @@ let shirts = 150 * 2
 let batteries = 35 * 2
 let pens = 5 * 20 
 
-if (shoes + batteries + pens + shirts > 1000 &&  ) {
-	if (location = NAM && customers < 2) {
+//Calculating Users Cost Without Shipping
+
+let total = shoes + toys + shirts + batteries + pens
+console.log('price', currency, total + shipping)
+
+
+if (total > 1000 || total < 0){ {
+	if (location = 'NAM' || 'RSA' < 2) {
 			if (location = RSA)
 		    shipping = 0 || calcShipping
 		}
@@ -41,5 +47,5 @@ if (shoes + batteries + pens + shirts > 1000 &&  ) {
 
 if (shipping = 0) && (customers !=== 1) { console.log(WARNING) }
 
-	location = 'NK' ? console.log(WARNING) : console.log('price', currency, shoes + batteries + pens + shirts + shipping)
+	location = 'NK' ? console.log(WARNING) : 
 
