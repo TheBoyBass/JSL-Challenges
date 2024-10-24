@@ -16,4 +16,3 @@ if (hourOfDay == 0 && minuteOfDay == 0) {
 }
 else if (hourOfDay == null && minuteOfDay == null)
     console.log("Invalid time")
-	
