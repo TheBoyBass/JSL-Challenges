@@ -18,19 +18,22 @@ const order_3 = document.querySelector('[data-key="order1"]'); //Get the Order n
 const biscuits_3 = order_3.getAttribute('data-biscuits'); //Get the biscuit data from the DOM under  Order 3
 const donuts_3 = order_3.getAttribute('data-donuts'); //Get the donuts data from the DOM under Order 3
 const pancakes_3= order_3.getAttribute('data-pancakes'); // Get the Pancakes data from the DOM under Order 3
-const status = order_3.getAttribute('data-delivered'); // Get the status of the Order 3 data
+const status_3 = order_3.getAttribute('data-delivered'); // Get the status of the Order 3 data
 
-1-biscuits= 1-root.biscuits,
-1-donuts = 1-root.donuts,
-1-pancakes = 1-root.pancakes,
-1-status = 1-root.status ? Delivered : Pending
+order_1.getElementsByClassName('count')[0].textContent = biscuits_1
+order_1.getElementsByClassName('count')[1].textContent = donuts_1
+order_1.getElementsByClassName('count')[2].textContent = pancakes_1
+let Status1 = status_1 === 'true' ? 'Delivered' : 'Pending'
+order_1.querySelector('.status dd').textContent = Status1
 
-2-biscuits= 2-root.biscuits,
-2-donuts = 2-root.donuts,
-2-pancakes = 2-root.pancakes,
-2-status = 2-root.status ? Delivered : Pending
+order_2.getElementsByClassName('count')[0].textContent = biscuits_2
+order_2.getElementsByClassName('count')[1].textContent = donuts_2
+order_2.getElementsByClassName('count')[2].textContent = pancakes_2
+let Status2 = status_2 === 'true' ? 'Delivered' : 'Pending'
+order_2.querySelector('.status dd').textContent = Status2
 
-3-biscuits= 3-root.biscuits,
-3-donuts = 3-root.donuts,
-3-pancakes = 3-root.pancakes,
-3-status = 3-root.status ? Delivered : Pending
+order_3.getElementsByClassName('count')[0].textContent = biscuits_3
+order_3.getElementsByClassName('count')[1].textContent = donuts_3
+order_3.getElementsByClassName('count')[2].textContent = pancakes_3
+let Status3 = status_3 === 'true' ? 'Delivered' : 'Pending'
+order_3.querySelector('.status dd').textContent = Status3
