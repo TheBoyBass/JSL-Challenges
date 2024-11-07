@@ -107,8 +107,8 @@ const lastMonth = lastHoliday.getMonth()
 console.log(`${firstDay}/${firstMonth}/${currentYear}`)
 console.log(`${lastDay}/${lastMonth}/${currentYear}`)
 
-const randomHoliday = holidays[Math.random].date
-const randomDay = randomHoliday.getDate()
-const randomMonth = randomHoliday.getMonth()
+const randomHoliday = holidays[Math.floor.random() * 9];
+const randomDay = new Date(randomHoliday.date).getDay()
+const randomMonth = new Date(randomHoliday.date).getMonth()
 
 console.log(`${randomDay}/${randomMonth}/${currentYear}`)
