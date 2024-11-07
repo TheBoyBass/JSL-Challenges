@@ -1,22 +1,24 @@
 //Only change below JS, not the HTML
 
-const 1-root = document(order1),
-const 1-biscuits: document(biscuits),
-const 1-donuts: document(donuts),
-const 1-pancakes: document(pancakes),
-const 1-status: document(status)
 
-const 2-root = document(order2),
-const 2-biscuits: document(biscuits),
-const 2-donuts: document(donuts),
-const 2-pancakes: document(pancakes),
-const 2-status: document(status)
+const order_1 = document.querySelector('[data-key="order1"]'); //Get the Order name from the DOM
+const biscuits_1 = order_1.getAttribute('data-biscuits'); //Get the biscuit data from the DOM under  Order 1
+const donuts_1 = order_1.getAttribute('data-donuts'); //Get the donuts data from the DOM under Order 1
+const pancakes_1= order_1.getAttribute('data-pancakes'); // Get the Pancakes data from the DOM under Order 1
+const status_1 = order_1.getAttribute('data-delivered'); // Get the status of the Order 1 data
 
-const 3-root = document(order3),
-const 3-biscuits: document(biscuits),
-const 3-donuts: document(donuts),
-const 3-pancakes: document(pancakes),
-const 3-status: document(status)
+
+const order_2 = document.querySelector('[data-key="order1"]'); //Get the Order name from the DOM
+const biscuits_2 = order_2.getAttribute('data-biscuits'); //Get the biscuit data from the DOM under  Order 2
+const donuts_2 = order_2.getAttribute('data-donuts'); //Get the donuts data from the DOM under Order 2
+const pancakes_2= order_2.getAttribute('data-pancakes'); // Get the Pancakes data from the DOM under Order 2
+const status_2 = order_2.getAttribute('data-delivered'); // Get the status of the Order 2 data
+
+const order_3 = document.querySelector('[data-key="order1"]'); //Get the Order name from the DOM
+const biscuits_3 = order_3.getAttribute('data-biscuits'); //Get the biscuit data from the DOM under  Order 3
+const donuts_3 = order_3.getAttribute('data-donuts'); //Get the donuts data from the DOM under Order 3
+const pancakes_3= order_3.getAttribute('data-pancakes'); // Get the Pancakes data from the DOM under Order 3
+const status = order_3.getAttribute('data-delivered'); // Get the status of the Order 3 data
 
 1-biscuits= 1-root.biscuits,
 1-donuts = 1-root.donuts,
