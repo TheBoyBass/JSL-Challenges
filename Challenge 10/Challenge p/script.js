@@ -8,13 +8,13 @@ const pancakes_1= order_1.getAttribute('data-pancakes'); // Get the Pancakes dat
 const status_1 = order_1.getAttribute('data-delivered'); // Get the status of the Order 1 data
 
 
-const order_2 = document.querySelector('[data-key="order1"]'); //Get the Order name from the DOM
+const order_2 = document.querySelector('[data-key="order2"]'); //Get the Order name from the DOM
 const biscuits_2 = order_2.getAttribute('data-biscuits'); //Get the biscuit data from the DOM under  Order 2
 const donuts_2 = order_2.getAttribute('data-donuts'); //Get the donuts data from the DOM under Order 2
 const pancakes_2= order_2.getAttribute('data-pancakes'); // Get the Pancakes data from the DOM under Order 2
 const status_2 = order_2.getAttribute('data-delivered'); // Get the status of the Order 2 data
 
-const order_3 = document.querySelector('[data-key="order1"]'); //Get the Order name from the DOM
+const order_3 = document.querySelector('[data-key="order3"]'); //Get the Order name from the DOM
 const biscuits_3 = order_3.getAttribute('data-biscuits'); //Get the biscuit data from the DOM under  Order 3
 const donuts_3 = order_3.getAttribute('data-donuts'); //Get the donuts data from the DOM under Order 3
 const pancakes_3= order_3.getAttribute('data-pancakes'); // Get the Pancakes data from the DOM under Order 3
